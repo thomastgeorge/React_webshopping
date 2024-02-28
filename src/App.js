@@ -7,10 +7,9 @@ import "./index.css"
 
 import products from "./db/data";
 import Card from './components/Card';
-function App() {
 
-  
-  const [selectedCategory, setSelectedCategory] = useState("null");
+function App() {  
+  const [selectedCategory, setSelectedCategory] = useState(null);
   const [query, setQuery] = useState("");
 
   const handleInputChange = event => {
